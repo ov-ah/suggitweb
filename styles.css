@@ -20,6 +20,293 @@ body {
   left: 20%;
 }
 
+.infobox {
+  width: 50%;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #FF0000;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a {
+  padding: 5px 10px;
+  width: 100%;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  
+  background-size: 25px 25px;
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+.navbar a.active {
+  background-image: url("images/flamebackground2.gif");
+  color: black;
+}
+
+.navbar a.ocean {
+  color: blue;
+}
+
+.navbar a.ocean:hover {
+  background-image: url("images/oceanbackground2.gif");
+  color: white;
+}
+
+.navbar a.jungle {
+  color: darkgreen;
+}
+
+.navbar a.jungle:hover {
+  background-image: url("images/junglebackground2.gif");
+  color: white;
+}
+
+.navbar a.desert {
+  color: gold;
+}
+
+.navbar a.desert:hover {
+  background-image: url("images/desertbackground2.gif");
+  color: black;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  text-decoration: underiine;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  border: 40px solid transparent;
+  box-sizing: border-box;
+  
+  background-image: url("images/flamebackground.gif");
+  background-repeat: repeat;
+  background-position: top left;
+
+  font-family: 'Roboto mono';
+  font-size: 14px;
+  color: white;
+}
+
+.leftshoulder {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infobox {
+  width: 50%;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #FF0000;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  padding: 5px;
+  width: 24%;
+
+  float: left;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  
+  background-size: 25px 25px;
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+.navbar a.active {
+  background-image: url("images/flamebackground2.gif");
+  color: black;
+}
+
+.navbar a.ocean {
+  color: blue;
+}
+
+.navbar a.ocean:hover {
+  background-image: url("images/oceanbackground2.gif");
+  color: white;
+}
+
+.navbar a.jungle {
+  color: darkgreen;
+}
+
+.navbar a.jungle:hover {
+  background-image: url("images/junglebackground2.gif");
+  color: white;
+}
+
+.navbar a.desert {
+  color: gold;
+}
+
+.navbar a.desert:hover {
+  background-image: url("images/desertbackground2.gif");
+  color: black;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  text-decoration: underiine;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  border: 40px solid transparent;
+  box-sizing: border-box;
+  
+  background-image: url("images/flamebackground.gif");
+  background-repeat: repeat;
+  background-position: top left;
+
+  font-family: 'Roboto mono';
+  font-size: 14px;
+  color: white;
+}
+
+.leftshoulder {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infobox {
+  width: 60%;
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid #FF0000;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  padding: 5px;
+  width: 25%;
+
+  float: left;
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 10px;
+
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+.navbar a.active {
+  background-image: url("images/flamebackground2.gif");
+  color: black;
+}
+
+.navbar a.ocean {
+  color: blue;
+}
+
+.navbar a.ocean:hover {
+  background-image: url("images/oceanbackground2.gif");
+  color: white;
+}
+
+.navbar a.jungle {
+  color: darkgreen;
+}
+
+.navbar a.jungle:hover {
+  background-image: url("images/junglebackground2.gif");
+  color: white;
+}
+
+.navbar a.desert {
+  color: gold;
+}
+
+.navbar a.desert:hover {
+  background-image: url("images/desertbackground2.gif");
+  color: black;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  text-decoration: underiine;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  border: 40px solid transparent;
+  box-sizing: border-box;
+  
+  background-image: url("images/flamebackground.gif");
+  background-repeat: repeat;
+  background-position: top left;
+
+  font-family: 'Roboto mono';
+  font-size: 14px;
+  color: white;
+}
+
+.leftshoulder {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
+
 .container {
   height: 100vh;
   display: flex;
