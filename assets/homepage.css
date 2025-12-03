@@ -39,6 +39,10 @@ body {
   text-align: center;
 }
 
+.navbar a:hover {
+  background-color: white;
+}
+
 .navbar a.active {
   background-color: ##FF0000;
 }
