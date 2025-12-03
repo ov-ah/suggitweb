@@ -40,7 +40,7 @@ body {
 
 .navbar a.active {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/f0836587180073.5db0260d02bd1.gif");
-    color: white;
+    color: black;
 }
 
 .navbar a.ocean {
@@ -67,7 +67,7 @@ body {
 
 .navbar a.desert:hover {
   background-image: url("https://media.tenor.com/-9MYV1QS32UAAAAM/sand-desert.gif");
-  color: white;
+  color: black;
 }
 
 .content {
