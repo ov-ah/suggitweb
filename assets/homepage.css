@@ -39,20 +39,35 @@ body {
 }
 
 .navbar a.active {
-  background-color: red;
-  color: white;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/f0836587180073.5db0260d02bd1.gif");
+    color: white;
 }
 
 .navbar a.ocean {
   color: blue;
 }
 
+.navbar a.ocean:hover {
+  background-image: url("https://i.pinimg.com/originals/1d/15/d8/1d15d8da8b3b6f3a895828ba2663f409.gif");
+  color: white;
+}
+
 .navbar a.jungle {
   color: darkgreen;
 }
 
+.navbar a.jungle:hover {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUybGh3YzV4MW05ZW9wZ2MzdHZjMHA5bHE5NHYyeGkxdG94cXFtd2Y0bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/uf3jumi0zzUv6/200w.gif");
+  color: white;
+}
+
 .navbar a.desert {
   color: gold;
+}
+
+.navbar a.desert:hover {
+  background-image: url("https://media.tenor.com/-9MYV1QS32UAAAAM/sand-desert.gif");
+  color: white;
 }
 
 .content {
