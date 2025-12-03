@@ -5,5 +5,12 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  color: white;
+  color: #000000;
+}
+
+.infobox {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #2F1515;
+  padding: 10px;
 }
